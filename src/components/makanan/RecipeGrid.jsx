@@ -1,4 +1,4 @@
-// src/components/minuman/RecipeGrid.jsx
+// src/components/makanan/RecipeGrid.jsx
 import { Clock, Star, Coffee, ChefHat } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import FavoriteButton from '../common/FavoriteButton';
@@ -31,8 +31,8 @@ export default function RecipeGrid({ recipes, onRecipeClick }) {
 
   return (
     <section>
-      <h1 className="text-3xl md:text-5xl font-bold text-slate-800 text-center mb-4">Jelajahi Resep Minuman</h1>
-      <p className="text-center text-slate-500 max-w-2xl mx-auto mb-8">Temukan minuman segar, hangat, dan kekinian.</p>
+      <h1 className="text-3xl md:text-5xl font-bold text-slate-800 text-center mb-4">Jelajahi Resep Makanan</h1>
+      <p className="text-center text-slate-500 max-w-2xl mx-auto mb-8">Temukan makanan hangat, menggiurkan, dan kekinian.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
         {recipes.map((recipe, index) => (
           <div 
